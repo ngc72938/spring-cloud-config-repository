@@ -1,5 +1,5 @@
 spring:
   jwt:
-    secret:memberSeviceSecretKey
+    secret: memberSeviceSecretKey11
 gateway:
-  ip:192.168.0.9
+  ip: 192.168.0.9
