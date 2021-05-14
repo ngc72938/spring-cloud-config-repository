@@ -1,0 +1,5 @@
+spring:
+  jwt:
+    secret: memberSeviceSecretKey_dev
+gateway:
+  ip: 192.168.0.9
