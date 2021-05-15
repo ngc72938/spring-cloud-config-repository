@@ -5,7 +5,7 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem/testdb
     username: sa
-    password: b28f5994a70b28d48eb7078bc803e775b80a69f87cc0e4448b97d69dc0e30ee5
+    password: '{cipher}b28f5994a70b28d48eb7078bc803e775b80a69f87cc0e4448b97d69dc0e30ee5'
 gateway:
   ip: 192.168.0.9
 
