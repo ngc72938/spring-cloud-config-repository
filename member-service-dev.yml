@@ -1,16 +1,16 @@
 spring:
-#  rabbitmq:
-#    host: 127.0.0.1
-#    port: 5672
-#    username: rabbitmq
-#    password: '{cipher}ee9148519d978ae0f3b2dd54b015fe5f5ca59633230286201478bb7e26ebf3d6'
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: rabbitmq
+    password: '{cipher}ee9148519d978ae0f3b2dd54b015fe5f5ca59633230286201478bb7e26ebf3d6'
   jwt:
     secret: memberSeviceSecretKey
-#  datasource:
-#    driver-class-name: org.h2.Driver
-#    url: jdbc:h2:mem/testdb
-#    username: sa
-#    password: '{cipher}a2cdd762ca2a4b5d6f11ac11ee1277c1d265a54eddb0f5ad9f29d387cf78ae10'
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem/testdb
+    username: sa
+    password: '{cipher}a2cdd762ca2a4b5d6f11ac11ee1277c1d265a54eddb0f5ad9f29d387cf78ae10'
 gateway:
   ip: 192.168.0.9
 
