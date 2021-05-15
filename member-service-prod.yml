@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: rabbitmq
+    password: '{cipher}ee9148519d978ae0f3b2dd54b015fe5f5ca59633230286201478bb7e26ebf3d6'
   jwt:
     secret: memberSeviceSecretKey
   datasource:
